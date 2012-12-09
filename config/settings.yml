@@ -22,8 +22,8 @@ common:
       key: skeletonkey
       secret: seekrit!
     linked_in:
-      key:
-      secret: seekrit!
+      key: 7mmj6kw01y7v
+      secret: a3RO7g169qUTlwpg
   # Sometimes, you'll need to specify the location of your CA certs. Try first without.
   # ssl_ca_path: "/etc/ssl/certs"
   google_analytics_id: <your id>
