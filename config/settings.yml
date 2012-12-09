@@ -4,14 +4,14 @@ common:
   # Language locale to use, see http://en.wikipedia.org/wiki/ISO_639-1 for list of valid names. The locale is used to lookup a file with the matching name, e.g. translation file "config/locales/en.yml" for locale "en":
   locale: en
   # Timezone to use by default, run `bundle exec rake time:zones:all` to list valid names:
-  time_zone: 'Pacific Time (US & Canada)'
+  time_zone: 'Mountain Time (US & Canada)'
   providers:
-    - twitter
+  #  - twitter
     - open_id
     - google
     - yahoo
-    - facebook
-    - linked_in
+  #  - facebook
+  #  - linked_in
     - github
     - foursquare
   auth_credentials:
@@ -31,15 +31,15 @@ common:
   secret_token: c63463de2c67e13400b5ee30329a12e6d95df8e7a24112c4420ceb0b540829cdcfa48cd1d54d9dff3cc89c552013cf9f5aab7dd2539291d9355bc2069367bafe
   session_cookie_key: _your_app_session
   organization:
-    name: Org Name
-    city: City
-    state: State
-    url: http://domain.org
+    name: NM Tech Directory
+    city: Albuquerque
+    state: New Mexico
+    url: http://nmtechdir.herokuapp.com
     twitter: popular_tweeter
     email: admin@domain.org
     host: host
     host_url: host@domain.com
-    logotype: <span>e</span>Logo
+    logotype: <span>NM</span>Tech Directory
   mailer:
     # delivery specific settings should be set in environment configs below
     # (you don't want to send out real emails in tests, do you?)

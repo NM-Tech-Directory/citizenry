@@ -43,7 +43,7 @@
 production:
   database: citizenry
   username: root
-  password:
+  password: citizenry4u
   encoding: utf8
   adapter: mysql2
 
