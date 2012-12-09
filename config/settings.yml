@@ -6,12 +6,12 @@ common:
   # Timezone to use by default, run `bundle exec rake time:zones:all` to list valid names:
   time_zone: 'Mountain Time (US & Canada)'
   providers:
-  #  - twitter
+    - twitter
     - open_id
     - google
     - yahoo
-  #  - facebook
-  #  - linked_in
+    - facebook
+    - linked_in
     - github
     - foursquare
   auth_credentials:
