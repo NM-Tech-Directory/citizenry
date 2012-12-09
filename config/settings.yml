@@ -16,8 +16,8 @@ common:
     - foursquare
   auth_credentials:
     twitter:
-      key: skeletonkey
-      secret: seekrit!
+      key: LXSSt1cNYDWTBgtrMJUQ
+      secret: FdYdFBdsk8a0CHVjMeje4rYBMVnq9zpeDO6uA89Vjs
     facebook:
       key: skeletonkey
       secret: seekrit!
@@ -32,12 +32,12 @@ common:
   session_cookie_key: _your_app_session
   organization:
     name: NM Tech Directory
-    city: Albuquerque
+    city: 
     state: New Mexico
     url: http://nmtechdir.herokuapp.com
-    twitter: popular_tweeter
-    email: admin@domain.org
-    host: host
+    twitter: nmtechcouncil
+    email: michael@urbsly.com
+    host: Heroku
     host_url: host@domain.com
     logotype: <span>NM</span>Tech Directory
   mailer:
